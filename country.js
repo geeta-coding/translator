@@ -1,0 +1,20 @@
+const country = {
+    "en": "English",
+    "hi": "Hindi",
+    "mr": "Marathi",
+    "fr": "French",
+    "es": "Spanish",
+    "de": "German",
+    "ru": "Russian",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "zh": "Chinese",
+    "it": "Italian",
+    "ar": "Arabic",
+    "pt": "Portuguese",
+    "bn": "Bengali",
+    "gu": "Gujarati",
+    "ta": "Tamil",
+    "te": "Telugu",
+    "ur": "Urdu"
+};

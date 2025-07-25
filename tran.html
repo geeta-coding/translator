@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSLATOR</title>
+    <link rel="stylesheet" href="tran.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="text">
+            <textarea name="text1" id="fromtext" placeholder="Enter text here..."></textarea>
+            <textarea name="text2" id="totext" placeholder="Translation..."></textarea>
+        </div>
+
+        <div class="slectarea">
+
+            <!-- LEFT SIDE (From language) -->
+            <div class="select1">
+                <img src="speaker.svg" alt="speaker" id="fromSpeaker">
+                <img src="copy.svg" alt="copy" id="fromCopy">
+                <select id="firstselect">
+                    <option value="en">English</option>
+                    <option value="hi">Hindi</option>
+                    <option value="mr">Marathi</option>
+                </select>
+            </div>
+
+            <!-- RIGHT SIDE (To language) -->
+            <div class="select2">
+                <img src="speaker.svg" alt="speaker" id="toSpeaker">
+                <img src="copy.svg" alt="copy" id="toCopy">
+                <select id="secondselect">
+                    <option value="en">English</option>
+                    <option value="hi">Hindi</option>
+                    <option value="mr">Marathi</option>
+                </select>
+            </div>
+
+        </div>
+
+        <button id="transfor">Translate</button>
+
+    
+
+    <script src="tran.js"></script>
+</body>
+</html>
